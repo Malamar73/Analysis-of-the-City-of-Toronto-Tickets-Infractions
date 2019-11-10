@@ -12,7 +12,7 @@ library(RCurl)
 library(geosphere)
 library(zoo)
 
-register_google(key = "AIzaSyD9Y8zPup1U5hvHBxkj1J2JRiQGp8lrdDU")
+register_google(key = "")
 temp <- tempfile()
 
 download.file("http://opendata.toronto.ca/revenue/parking/ticket/parking_tickets_2008.zip",temp)
